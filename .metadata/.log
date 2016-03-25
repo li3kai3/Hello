@@ -1,5 +1,17 @@
-Fri Mar 25 19:23:36 GMT 2016
-ERROR org.eclipse.rse.core  Unexpected Exception
+!SESSION 2016-03-25 19:22:57.473 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-25 19:23:21.157
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.rse.core 4 0 2016-03-25 19:23:36.829
+!MESSAGE Unexpected Exception
+!STACK 0
 java.net.UnknownHostException: linux-w8sj: linux-w8sj: unknown error
 	at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
 	at org.eclipse.rse.core.RSECorePlugin.getLocalMachineName(RSECorePlugin.java:265)
@@ -36,4 +48,3 @@ Caused by: java.net.UnknownHostException: linux-w8sj: unknown error
 	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
 	at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
 	... 28 more
---------------------------------------------
